@@ -6,3 +6,18 @@
 * método <b>generateBase64QRCode(final String data)</b>: retorna um base64 do QRCode com o conteúdo informado e o tamanho de 200x200
 * método <b>generateBase64QRCode(final String data, final int height, final int width)</b>: retorna um base64 do QRCode com o conteúdo informado, com a altura e largura deseja
 * método <b>readQRCodeContent(final String filePath)</b>: retorna o conteúdo do texto atrelado a imagem QRCode informada
+
+
+###### POM (dependencies)
+```xml
+<dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>core</artifactId>
+	<version>3.3.0</version>
+</dependency>
+<dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>javase</artifactId>
+	<version>3.3.0</version>
+</dependency>
+```
